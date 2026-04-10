@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Babes&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+  --sans: 'Babes neue', 'Montserrat', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Babes', 'Montserrat', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  --bs-body-font-family: var(--sans);
+}
