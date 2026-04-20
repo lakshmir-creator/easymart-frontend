@@ -1,7 +1,7 @@
 // API Configuration and Endpoints
 
 // Base API URL - loaded from .env (VITE_API_URL)
-const API_BASE_URL = `${import.meta.env.VITE_API_URL}/grocery-delivery-api`;
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}`;
 
 // API Endpoints
 export const API_ENDPOINTS = {
@@ -70,34 +70,6 @@ class ApiService {
     });
   }
 
-  // Future API methods (add as needed)
-  /*
-  static async getProducts() {
-    return this.apiCall(API_ENDPOINTS.PRODUCTS);
-  }
-
-  static async getCategories() {
-    return this.apiCall(API_ENDPOINTS.CATEGORIES);
-  }
-
-  static async addToCart(productData) {
-    return this.apiCall(API_ENDPOINTS.CART, {
-      method: 'POST',
-      body: JSON.stringify(productData),
-    });
-  }
-
-  static async getOrders() {
-    return this.apiCall(API_ENDPOINTS.ORDERS);
-  }
-
-  static async addToWishlist(productId) {
-    return this.apiCall(API_ENDPOINTS.WISHLIST, {
-      method: 'POST',
-      body: JSON.stringify({ product_id: productId }),
-    });
-  }
-  */
 }
 
 export default ApiService;

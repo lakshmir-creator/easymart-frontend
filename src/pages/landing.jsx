@@ -109,7 +109,7 @@ const Landing = () => {
               <img
                 src={landingBg1}
                 alt="Basket"
-                style={{ width: '100%', maxWidth: '650px', filter: 'drop-shadow(0 20px 30px rgba(0,0,0,0.3))' }}
+                style={{ width: '100%', maxWidth: '40rem', filter: 'drop-shadow(0 1.25rem 1.875rem rgba(0,0,0,0.3))' }}
               />
             </Col>
           </Row>
@@ -209,7 +209,7 @@ const Landing = () => {
           <Row>
             {[1,2,3,4].map(i => (
               <Col xs={6} md={3} key={i} style={{ marginBottom: '1rem' }}>
-                <Card style={{ borderRadius: '1rem', border: 'none', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
+                <Card style={{ borderRadius: '1rem', border: 'none', boxShadow: '0 0.25rem 0.625rem rgba(0,0,0,0.05)' }}>
                   <div style={{ padding: '1rem', textAlign: 'center' }}>
                     <img
                       src="https://static.vecteezy.com/system/resources/previews/015/100/015/non_2x/red-bell-pepper-isolated-on-transparent-background-free-png.png"
