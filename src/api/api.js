@@ -1,7 +1,7 @@
 // API Configuration and Endpoints
 
-// Base API URL
-const API_BASE_URL = 'http://localhost:8000/grocery-delivery-api';
+// Base API URL - loaded from .env (VITE_API_URL)
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}/grocery-delivery-api`;
 
 // API Endpoints
 export const API_ENDPOINTS = {
